@@ -5,7 +5,7 @@
 
 
 EXPLORER
-
+--------
 
 An explorer that already works with this chain is https://bitcoin-explorer.org/.
 You can conveniently check the current block height and chain details.
@@ -16,7 +16,7 @@ You can conveniently check the current block height and chain details.
 
 
 POOL
-
+----
 
 Just point your miner to:
 
@@ -49,7 +49,7 @@ If you enter an invalid address, you will be rejected.
 
 
 BITCOIN CORE
-
+------------
 
 Only use the Bitcoin Core source code from the official Bitcoin source (https://bitcoincore.org/bin/bitcoin-core-27.1/bitcoin-27.1.tar.gz).
 These customizations are specific to Bitcoin Core version v27.1.0 and have only been tested with this version.
@@ -72,7 +72,7 @@ Start Bitcoin Core, your Bitcoin Core client can now connect to the network.
 
 
 CHANGELOG
-
+---------
 
 Bitcoin Core Version v27.1.0
 
