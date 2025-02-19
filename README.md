@@ -15,7 +15,40 @@ You can conveniently check the current block height and chain details.
 
 
 
-JOINING THE NETWORK
+POOL
+
+
+Just point your miner to:
+
+solopool.btcgate.net:3333
+
+Set your username to your Bitcoin address with any or even no worker extension, and any password.
+
+
+Example:
+
+cgminer -o stratum+tcp://solopool.btcgate.net:3333 -u 1PKN98VN2z5gwSGZvGKS2bj8aADZBkyhkZ.0 -p x
+
+
+Or in your ASIC miner's configuration boxes:
+
+Pool:solopool.btcgate.net
+
+Port:3333
+
+Username:1PKN98VN2z5gwSGZvGKS2bj8aADZBkyhkZ.0
+
+Password (ignored):x
+
+
+If you enter an invalid address, you will be rejected.
+
+
+
+
+
+
+BITCOIN CORE
 
 
 Only use the Bitcoin Core source code from the official Bitcoin source (https://bitcoincore.org/bin/bitcoin-core-27.1/bitcoin-27.1.tar.gz).
